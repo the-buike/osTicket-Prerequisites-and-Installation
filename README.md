@@ -1,14 +1,17 @@
 # BUIKE-HELPDESK (osticket.local)
 
+<p align="center">
+  <img src="images/osticket-logo-banner.png" alt="osTicket logo" width="100%" />
+</p>
+
 A self-hosted support ticketing system built on Azure. Provisioning, web server configuration, PHP and MySQL setup, and application deployment, all done by hand and documented like a production rollout.
 
 <p align="center">
-  <img src="images/osticket-logo.png" alt="osTicket logo" width="30%" />
-  <img src="images/03-vm-networking.png" alt="Azure VM provisioning" width="35%" />
-  <img src="images/25-congratulations.png" alt="osTicket install complete" width="30%" />
+  <img src="images/03-vm-networking.png" alt="Azure VM provisioning" width="58%" />
+  <img src="images/25-congratulations.png" alt="osTicket install complete" width="33%" />
 </p>
 
-<p align="center"><em>Left: the osTicket logo. Center: provisioning the Azure VM and virtual network. Right: the finished install, osTicket live and reachable at localhost/osticket.</em></p>
+<p align="center"><em>Left: creating the osticket-vm virtual machine, setting the virtual network, subnet, and public IP on the Networking tab, inside the OS-Ticktet-RG resource group. Right: the osTicket Installer's Congratulations screen, confirming osTicket v1.15.8 installed successfully, with links to the live helpdesk and the staff control panel.</em></p>
 
 ---
 
