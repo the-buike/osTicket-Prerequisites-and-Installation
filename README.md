@@ -174,21 +174,6 @@ And that was it. The installer finished with a clean Congratulations screen, con
 | 5. Troubleshooting | HTTP 500 error resolved via NTFS permissions fix | Complete |
 | 6. Installer | osTicket setup wizard completed end to end | Complete |
 | 7. Hardening | Remove write access on ost-config.php, review permissions | Planned |
-| 8. Branding | Custom Ashgrove Clinic logo applied to the client-facing portal | Complete |
-
----
-
-## Branding Update: Custom Client Logo
-
-Once the base install and configuration phases were done, the default osTicket branding was swapped out for a custom Ashgrove Clinic logo, replacing the generic Support Center wordmark that ships with the system out of the box.
-
-**Path:** Admin Panel > Settings > Company > Logos
-
-<p align="center"><img src="images/26-company-profile-custom-logo.png" width="80%"></p>
-
-The Logos tab under Company Profile splits the setting into two independent choices, one for the Client-facing portal and one for the Staff control panel, each pointed at either the system default logo or a custom upload. For this build, the client-facing view was set to use the custom Ashgrove Clinic logo, while the system default stayed selected for Staff, keeping the visual distinction between the two panels intact.
-
-**Why this matters:** a generic Support Center wordmark is fine for a lab environment, but it breaks the illusion the moment a hospital staff member opens the client portal expecting to see their own organization's branding. Swapping in the Ashgrove Clinic logo for the client-facing side is a small change, but it is the kind of detail that separates a raw osTicket install from something that reads as a real, client-ready deployment, which matters for how this project holds up in a portfolio review.
 
 ---
 
